@@ -1,4 +1,5 @@
 #include <Arduino.h>
+#include "secrets.h"
 
 #if defined(ESP32)
   #include <WiFi.h>
@@ -6,11 +7,11 @@
   #include <ESP8266WiFi.h>
 #endif
 
-const char* ssid = "PJ1";
-const char* password = "qwerty1234";
+const char* ssid = WIFI_SSID;
+const char* password = WIFI_PASSWORD;
 
 const char* server = "api.thingspeak.com";
-String writeApiKey = "32W4KNCWSQR1U0BD";
+String writeApiKey = API_KEY;
 
 unsigned long lastSendTime = 0;
 const unsigned long sendInterval = 20000; // 20 seconds
