@@ -2,24 +2,31 @@
 noteId: "1ecb9b703ffa11f1af35076905717245"
 tags: []
 
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![Status](https://img.shields.io/badge/status-active-success)
+![Contributions](https://img.shields.io/badge/contributions-welcome-blue)
 ---
-# 🌐 IoT ThingSpeak Monitoring System
+#  IoT ThingSpeak Monitoring System
 
 A simple IoT project built with **PlatformIO**, **ESP32/ESP8266**, and **ThingSpeak** for real-time sensor data monitoring.
 
 ---
 
-## 🚀 Features
+## Features
 
 * WiFi-enabled data transmission
 * Real-time data visualization using ThingSpeak
 * Modular PlatformIO project structure
 * Secure API key handling (via secrets file)
 * Compatible with ESP32 and ESP8266
+## 📊 Dashboard Preview
+
+![ThingSpeak Chart](assets/thingspeak-chart.png)
+
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 * PlatformIO (VS Code)
 * C++ (Arduino Framework)
@@ -29,7 +36,7 @@ A simple IoT project built with **PlatformIO**, **ESP32/ESP8266**, and **ThingSp
 
 ---
 
-## 📡 How It Works
+## How It Works
 
 1. Sensor collects data (e.g., temperature, humidity)
 2. ESP device connects to WiFi
@@ -38,7 +45,7 @@ A simple IoT project built with **PlatformIO**, **ESP32/ESP8266**, and **ThingSp
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```bash
 src/        # Main application code
@@ -48,13 +55,13 @@ docs/       # Documentation
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
-See 👉 [docs/setup.md](docs/setup.md)
+See  [docs/setup.md](docs/setup.md)
 
 ---
 
-## 🔐 Environment Variables
+##  Environment Variables
 
 Create a file:
 
@@ -72,7 +79,7 @@ Example:
 
 ---
 
-## 📊 ThingSpeak Integration
+## ThingSpeak Integration
 
 Data is sent using:
 
@@ -82,14 +89,14 @@ https://api.thingspeak.com/update
 
 ---
 
-## 🧪 Example Output
+## Example Output
 
 * Temperature → Field 1
 * Humidity → Field 2
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
 * Add real sensor (DHT11/DHT22)
 * OTA updates
@@ -98,13 +105,13 @@ https://api.thingspeak.com/update
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Pull requests are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ---
 
-## 📄 License
+## License
 
 MIT License
 
