@@ -2,11 +2,12 @@
 noteId: "1ecb9b703ffa11f1af35076905717245"
 tags: []
 
+---
+#  IoT ThingSpeak Monitoring System
+
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![Status](https://img.shields.io/badge/status-active-success)
 ![Contributions](https://img.shields.io/badge/contributions-welcome-blue)
----
-#  IoT ThingSpeak Monitoring System
 
 A simple IoT project built with **PlatformIO**, **ESP32/ESP8266**, and **ThingSpeak** for real-time sensor data monitoring.
 
